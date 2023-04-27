@@ -24,6 +24,8 @@ class User {
         while (x <= unMutableList.size){
             println(unMutableList[x])
         }
+
+        println(3 in 1..10) // returns true
     }
 
 
