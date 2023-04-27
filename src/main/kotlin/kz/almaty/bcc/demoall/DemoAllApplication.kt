@@ -10,7 +10,6 @@ class DemoAllApplication
 
 fun main(args: Array<String>) {
     runApplication<DemoAllApplication>(*args)
-    var ju =  JavaUser("name", 10);
-    ju.name = "Kotlin"
-
+    println("hello Kotlin")
+    println(User().showInfo())
 }
