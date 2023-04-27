@@ -11,5 +11,7 @@ class DemoAllApplication
 fun main(args: Array<String>) {
     runApplication<DemoAllApplication>(*args)
     println("hello Kotlin")
-    println(User().showInfo())
+    User().showInfo()
+    User().iterate()
+
 }
