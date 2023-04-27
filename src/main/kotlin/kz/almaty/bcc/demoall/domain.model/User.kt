@@ -21,6 +21,9 @@ class User {
             println("${mutableListOf.get(x)}")
             x++
         }
+        while (x <= unMutableList.size){
+            println(unMutableList[x])
+        }
     }
 
 
