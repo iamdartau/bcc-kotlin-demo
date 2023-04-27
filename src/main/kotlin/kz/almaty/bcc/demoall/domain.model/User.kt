@@ -17,7 +17,7 @@ class User {
         }
         var x = 0
         println("while loop")
-        while (x <= 5) {
+        while (x <= mutableListOf.size) {
             println("${mutableListOf.get(x)}")
             x++
         }
