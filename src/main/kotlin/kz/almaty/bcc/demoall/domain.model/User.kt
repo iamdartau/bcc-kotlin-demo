@@ -36,5 +36,6 @@ class User {
         return a + b
     }
 
-
+    // make it more simple
+    fun sum(a: Int, b: Int, c: Int) = a + b + c
 }
