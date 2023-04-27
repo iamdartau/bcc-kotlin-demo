@@ -21,11 +21,19 @@ class User {
             println("${mutableListOf.get(x)}")
             x++
         }
-        while (x <= unMutableList.size){
+        while (x <= unMutableList.size) {
             println(unMutableList[x])
         }
 
         println(3 in 1..10) // returns true
+    }
+
+    fun abc(): String {
+        return "abc"
+    }
+
+    fun sum(a: Int, b: Int): Int {
+        return a + b
     }
 
 
