@@ -38,4 +38,5 @@ class User {
 
     // make it more simple
     fun sum(a: Int, b: Int, c: Int) = a + b + c
+//    fun sum(a: Int, b: Int, c: Int) : Int = a + b + c  /*alternative*/
 }
