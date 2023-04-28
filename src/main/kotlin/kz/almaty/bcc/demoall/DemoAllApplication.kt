@@ -10,8 +10,10 @@ class DemoAllApplication
 
 fun main(args: Array<String>) {
     runApplication<DemoAllApplication>(*args)
-    println("hello Kotlin")
-    User().showInfo()
-    User().iterate()
-
+//    println("hello Kotlin")
+//    User().iterate()
+//    User().showInfo()
+    val user = User()
+//    println(user.age)
+    println(user.min(1, 2))
 }

@@ -1,16 +1,14 @@
 package kz.almaty.bcc.demoall.domain.model
 
-class User(var name: String, private var age: Int) {
+class User(var name: String, private var _age: Int) {
 
     constructor() : this("", 0)
 
-    fun getAge(): Int {
-        return age;
-    }
-
-    fun setAge(age: Int) {
-        this.age = age
-    }
+    var age: Int
+        get() = _age
+        set(value) {
+            _age = value
+        }
 
     fun showInfo() {
         val const: Int = 1
@@ -28,7 +26,7 @@ class User(var name: String, private var age: Int) {
         }
         var x = 0
         println("while loop")
-        while (x <= mutableListOf.size) {
+        while (x <= mutableListOf.size-1) {
             println("${mutableListOf.get(x)}")
             x++
         }
@@ -45,6 +43,10 @@ class User(var name: String, private var age: Int) {
 
     fun sum(a: Int, b: Int): Int {
         return a + b
+    }
+
+    fun min(a: Int, b: Int): Int {
+        return a - b
     }
 
     // make it more simple
