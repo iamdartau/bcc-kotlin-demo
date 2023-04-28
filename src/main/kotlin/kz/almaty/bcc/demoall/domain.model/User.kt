@@ -26,7 +26,7 @@ class User(var name: String, private var _age: Int) {
         }
         var x = 0
         println("while loop")
-        while (x <= mutableListOf.size-1) {
+        while (x <= mutableListOf.size - 1) {
             println("${mutableListOf.get(x)}")
             x++
         }
@@ -53,13 +53,25 @@ class User(var name: String, private var _age: Int) {
     fun sum(a: Int, b: Int, c: Int) = a + b + c
 //    fun sum(a: Int, b: Int, c: Int) : Int = a + b + c  /*alternative*/
 
-    fun defArgs(x:Int = 1, y:Int = 2){
-        println(x+y)
+    fun defArgs(x: Int = 1, y: Int = 2) {
+        println(x + y)
     }
 
 
     fun varagsFun(vararg number: Int): IntArray {
-        number.forEach { e-> if(e%2==0) println(e)};
+        number.forEach { e -> if (e % 2 == 0) println(e) };
         return number
+    }
+
+    fun whenOperator(input: Any) {
+        when (input) {
+            1 -> print("is integer")
+            "1" -> print("is String")
+            1.0 -> print("is float")
+            in 0..100 -> print("number between 0 and 100")
+            is String -> print("it's String but not 1 ${input.length}")
+            is Int -> print("it's integer but not 1")
+            else -> print("i don't know")
+        }
     }
 }

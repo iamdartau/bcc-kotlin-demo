@@ -34,8 +34,11 @@ fun main(args: Array<String>) {
 
     // wait NPE
     // !! allow us to have it
-    var thereIsNull: String? = null
-    thereIsNull = if ((0..10).random() > 9) "not null" else null
-    println(thereIsNull!!.length)
-
+//    var thereIsNull: String? = null
+//    thereIsNull = if ((0..10).random() > 9) "not null" else null
+//    println(thereIsNull!!.length)
+    val user2 = User()
+    user2.whenOperator(1)
+    user2.whenOperator("1")
+    user2.whenOperator(1.0)
 }
