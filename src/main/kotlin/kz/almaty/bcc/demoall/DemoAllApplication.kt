@@ -20,4 +20,5 @@ fun main(args: Array<String>) {
 //    user1.defArgs()
 //    val sumOfvargs = user1.varagsFun(1, 2, 3, 4, 5)[0] + user1.varagsFun(1, 2, 3, 4, 5)[2]
     user1.varagsFun(1,2,3,4,5,6).forEach { e -> print(e) }
+    user1.varagsFun(*intArrayOf(1,2,3,4),5,6)
 }
