@@ -13,7 +13,9 @@ fun main(args: Array<String>) {
 //    println("hello Kotlin")
 //    User().iterate()
 //    User().showInfo()
-    val user = User()
+//    val user = User()
 //    println(user.age)
-    println(user.min(1, 2))
+//    println(user.min(1, 2))
+    val user1 = User()
+    user1.defArgs()
 }

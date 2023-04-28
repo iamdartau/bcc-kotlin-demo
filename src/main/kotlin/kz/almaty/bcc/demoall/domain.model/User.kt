@@ -52,4 +52,8 @@ class User(var name: String, private var _age: Int) {
     // make it more simple
     fun sum(a: Int, b: Int, c: Int) = a + b + c
 //    fun sum(a: Int, b: Int, c: Int) : Int = a + b + c  /*alternative*/
+
+    fun defArgs(x:Int = 1, y:Int = 2){
+        println(x+y)
+    }
 }
