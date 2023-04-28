@@ -74,4 +74,22 @@ class User(var name: String, private var _age: Int) {
             else -> print("i don't know")
         }
     }
+
+    fun lambdaForUser() {
+        val lambda = listOf(1, 2, 3, 4, 5)
+//        lambda.forEach { e -> println(e) }
+//        lambda.map { e -> e + 10 }
+//        lambda.filter { e -> e % 2 == 0 }
+//        lambda.reduce {sum, e-> sum + e } // sum
+        println(lambda.sortedDescending().forEach { e -> println(e) })
+        lambda.any { it > 2 } // true
+        lambda.all { it > 2 } // false
+        lambda.sum()
+        val (ints, ints1) = lambda.partition { it > 1 && it < 3 }
+        print(ints)
+        print(ints1)
+
+        val labStr = listOf("ab", "efg", "hij11", "klmn").groupBy { it.length }
+        print(labStr)
+    }
 }

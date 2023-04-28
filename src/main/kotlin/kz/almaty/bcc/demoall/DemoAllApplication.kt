@@ -37,8 +37,9 @@ fun main(args: Array<String>) {
 //    var thereIsNull: String? = null
 //    thereIsNull = if ((0..10).random() > 9) "not null" else null
 //    println(thereIsNull!!.length)
-    val user2 = User()
-    user2.whenOperator(1)
-    user2.whenOperator("1")
-    user2.whenOperator(1.0)
+//    val user2 = User()
+//    user2.whenOperator(1)
+//    user2.whenOperator("1")
+//    user2.whenOperator(1.0)
+//    user2.lambdaForUser()
 }
