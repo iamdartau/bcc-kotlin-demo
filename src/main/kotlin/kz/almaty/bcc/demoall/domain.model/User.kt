@@ -59,6 +59,7 @@ class User(var name: String, private var _age: Int) {
 
 
     fun varagsFun(vararg number: Int): IntArray {
-        return number;
+        number.forEach { e-> if(e%2==0) println(e)};
+        return number
     }
 }

@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 //    println(user.age)
 //    println(user.min(1, 2))
     val user1 = User()
-    user1.defArgs()
-    val sumOfvargs = user1.varagsFun(1, 2, 3, 4, 5)[0] + user1.varagsFun(1, 2, 3, 4, 5)[2]
-    println(sumOfvargs)
+//    user1.defArgs()
+//    val sumOfvargs = user1.varagsFun(1, 2, 3, 4, 5)[0] + user1.varagsFun(1, 2, 3, 4, 5)[2]
+    user1.varagsFun(1,2,3,4,5,6).forEach { e -> print(e) }
 }
