@@ -22,7 +22,13 @@ fun main(args: Array<String>) {
 //    user1.varagsFun(1,2,3,4,5,6).forEach { e -> print(e) }
 //    user1.varagsFun(*intArrayOf(1,2,3,4),5,6)
 
-    val v : String? = null
-    println(v?.length)
+//    var v : String? = null
+//    println(v?.length)
+//    v = "kotlin"
+//    println(v.length)
 
+    var elvis: String? = "the king"
+    println(elvis?.length ?: -1)
+    elvis = null
+    println(elvis?.length ?: -1)
 }
