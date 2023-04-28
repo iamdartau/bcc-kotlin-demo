@@ -1,6 +1,17 @@
 package kz.almaty.bcc.demoall.domain.model
 
-class User {
+class User(var name: String, private var age: Int) {
+
+    constructor() : this("", 0)
+
+    fun getAge(): Int {
+        return age;
+    }
+
+    fun setAge(age: Int) {
+        this.age = age
+    }
+
     fun showInfo() {
         val const: Int = 1
         var variable: Int = 2
