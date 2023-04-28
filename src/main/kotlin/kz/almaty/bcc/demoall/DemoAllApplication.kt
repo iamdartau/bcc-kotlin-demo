@@ -27,8 +27,15 @@ fun main(args: Array<String>) {
 //    v = "kotlin"
 //    println(v.length)
 
-    var elvis: String? = "the king"
-    println(elvis?.length ?: -1)
-    elvis = null
-    println(elvis?.length ?: -1)
+//    var elvis: String? = "the king"
+//    println(elvis?.length ?: -1)
+//    elvis = null
+//    println(elvis?.length ?: -1)
+
+    // wait NPE
+    // !! allow us to have it
+    var thereIsNull: String? = null
+    thereIsNull = if ((0..10).random() > 9) "not null" else null
+    println(thereIsNull!!.length)
+
 }
