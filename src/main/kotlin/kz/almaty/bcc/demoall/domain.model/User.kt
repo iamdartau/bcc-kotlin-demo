@@ -56,4 +56,9 @@ class User(var name: String, private var _age: Int) {
     fun defArgs(x:Int = 1, y:Int = 2){
         println(x+y)
     }
+
+
+    fun varagsFun(vararg number: Int): IntArray {
+        return number;
+    }
 }
