@@ -10,11 +10,10 @@ class User(var name: String, private var _age: Int) {
             _age = value
         }
 
-    fun showInfo() {
-        val const: Int = 1
-        var variable: Int = 2
+    fun showInfo(const: Int,variable: Int) {
         println("sum is ${const + variable}")
     }
+
 
     fun iterate() {
         var unMutableList = listOf("apple", "melon", "mango") // we can't change it after init
@@ -91,5 +90,9 @@ class User(var name: String, private var _age: Int) {
 
         val labStr = listOf("ab", "efg", "hij11", "klmn").groupBy { it.length }
         print(labStr)
+    }
+
+    override fun toString(): String {
+        return "User(name='${name + "asda"}', age=$age)"
     }
 }
