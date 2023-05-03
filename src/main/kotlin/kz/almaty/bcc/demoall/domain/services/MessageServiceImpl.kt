@@ -14,6 +14,13 @@ import org.springframework.stereotype.Service
  * github iamdartau
  * Когда мы используем @Autowired над конструктором класса, мы говорим Spring Framework,
  * что нужно автоматически связать параметры конструктора с подходящими зависимостями
+ *
+ * помечен аннотацией @Autowired в конструкторе, что говорит Spring автоматически связать бин типа MessageRepository с классом.
+ * Это делает экземпляр MessageRepository доступным для класса MessageServiceImpl через поле repository.
+ *
+ * Этот код определяет класс с именем `MessageServiceImpl`, который реализует интерфейс `MessageService`.
+ * Класс помечен аннотацией `@Service`, которая является аннотацией фреймворка Spring, указывающей,
+ * что этот класс является сервисным компонентом.
  */
 @Service
 class MessageServiceImpl @Autowired constructor(
