@@ -1,4 +1,4 @@
-package kz.almaty.bcc.demoall.contrlooer
+package kz.almaty.bcc.demoall.controllers
 
 import kz.almaty.bcc.demoall.domain.entities.Message
 import kz.almaty.bcc.demoall.domain.services.MessageService
