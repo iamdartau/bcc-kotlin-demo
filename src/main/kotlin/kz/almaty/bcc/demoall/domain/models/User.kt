@@ -1,4 +1,4 @@
-package kz.almaty.bcc.demoall.domain.model
+package kz.almaty.bcc.demoall.domain.models
 
 class User(var name: String, private var _age: Int) {
 

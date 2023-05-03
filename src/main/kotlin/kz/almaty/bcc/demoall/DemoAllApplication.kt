@@ -1,9 +1,7 @@
 package kz.almaty.bcc.demoall
 
-import kz.almaty.bcc.demoall.domain.model.User
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import kotlin.math.log
 
 @SpringBootApplication
 class DemoAllApplication

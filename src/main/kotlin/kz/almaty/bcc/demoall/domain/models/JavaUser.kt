@@ -1,4 +1,4 @@
-package kz.almaty.bcc.demoall.domain.model
+package kz.almaty.bcc.demoall.domain.models
 
 class JavaUser {
     var name: String? = null
