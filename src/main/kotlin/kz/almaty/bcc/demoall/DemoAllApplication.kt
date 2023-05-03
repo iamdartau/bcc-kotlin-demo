@@ -11,7 +11,7 @@ class DemoAllApplication
 fun main(args: Array<String>) {
     runApplication<DemoAllApplication>(*args)
 //    print(User())
-    User().showInfo(variable = 5, const = 5)
+//    User().showInfo(variable = 5, const = 5)
     /*User().iterate()
     val user = User()
     println(user.age)
@@ -44,4 +44,12 @@ fun main(args: Array<String>) {
     user2.whenOperator("1")
     user2.whenOperator(1.0)
     user2.lambdaForUser()*/
+
+    /*fun joinOptions(options: Collection<String>){
+        options.joinToString (
+            separator =  ", ",
+            prefix = "",
+            postfix= "", )
+    }*/
+
 }
