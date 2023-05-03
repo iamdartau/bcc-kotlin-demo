@@ -37,6 +37,10 @@ The following endpoints are available:
 - `PUT /api/messages/{id}` - Updates a specific message by ID
 - `DELETE /api/messages/{id}` - Deletes a specific message by ID
 
+## Postman collection
+
+use file: Kotlin REST CRUD Sample.postman_collection.json
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
