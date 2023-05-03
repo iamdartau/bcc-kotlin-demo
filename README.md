@@ -37,6 +37,10 @@ The following endpoints are available:
 - `PUT /api/messages/{id}` - Updates a specific message by ID
 - `DELETE /api/messages/{id}` - Deletes a specific message by ID
 
+## H2 console address
+
+http://localhost:8080/h2-console
+
 ## Postman collection
 
 use file: Kotlin REST CRUD Sample.postman_collection.json
