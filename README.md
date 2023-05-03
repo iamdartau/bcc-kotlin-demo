@@ -41,6 +41,6 @@ The following endpoints are available:
 
 use file: Kotlin REST CRUD Sample.postman_collection.json
 
-## License
+## Original post by Samuel Catalano
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+https://medium.com/@samuelcatalano/creating-rest-crud-api-using-kotlin-and-spring-boot-with-h2-memory-database-df8d4081e382
